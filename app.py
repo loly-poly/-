@@ -1,3 +1,4 @@
+import koreanize_matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 from google.colab import files
