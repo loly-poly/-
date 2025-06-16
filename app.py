@@ -30,7 +30,7 @@ if uploaded_file is not None:
     ax.set_title('사고유형 대분류별 총 피해자 수', fontproperties=fontprop)
     ax.set_xlabel('사고유형대분류', fontproperties=fontprop)
     ax.set_ylabel('총 피해자 수', fontproperties=fontprop)
-    ax.tick_params(axis='x', rotation=45)
+    ax.tick_params(axis='x', rotation=45,fontproperties=fontprop )
     ax.grid(True)
 
     st.pyplot(fig)
